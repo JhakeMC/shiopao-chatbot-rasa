@@ -1,8 +1,6 @@
 from setuptools import setup, find_packages
 import io
 import os
-from keep_alive import keep_alive
-keep_alive()
 
 install_requires = [
     "mailchimp3~=3.0.2",
